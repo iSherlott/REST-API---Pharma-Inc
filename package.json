@@ -1,0 +1,36 @@
+{
+  "name": "rest-api_pharma-inc",
+  "version": "1.0.0",
+  "description": "api criada para o processo seletivo da coodesh.",
+  "main": "serve.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iSherlott/REST-API---Pharma-Inc.git"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "pharma",
+    "inc"
+  ],
+  "author": "Cleverson Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iSherlott/REST-API---Pharma-Inc/issues"
+  },
+  "homepage": "https://github.com/iSherlott/REST-API---Pharma-Inc#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "node-schedule": "^2.0.0",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}

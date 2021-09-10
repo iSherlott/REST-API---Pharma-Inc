@@ -4,9 +4,9 @@ const { auth } = require("../helpers/auth");
 
 const users_controller = require("../controllers/users_controller");
 
-router.get("/", users_controller.find);
-router.get("/:userId", users_controller.findOne);
-// router.put("/", auth, users_controller.update);
-// router.delete("/:id", auth, users_controller.delete);
+router.get("/", auth, users_controller.find);
+router.get("/:userId", auth, users_controller.findOne);
+router.put("/:userId", auth, users_controller.update);
+router.delete("/:userId", auth, users_controller.delete);
 
 module.exports = router;
